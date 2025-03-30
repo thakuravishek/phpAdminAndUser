@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.searchInp {
+  /* border: 2px solid black; */
+  margin-top: 50px;
+  padding-left: 50px;
+}
+.inpPlaceholder {
+  margin-left: 50px;
+}
+.inpPlaceholder input {
+  width: 350px;
+  padding-left: 10px;
+}
+.searchBtn {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.searchBtn button {
+  width: 200px;
+  height: 30px;
+}

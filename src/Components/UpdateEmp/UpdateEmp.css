@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.heroSect {
+  height: 90vh;
+  width: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+form {
+  height: 60vh;
+  width: 25%;
+  border: 1px solid whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px;
+  background-color: whitesmoke;
+}
+.formEle {
+  width: 300px;
+  height: 70px;
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.formEle label {
+  font-size: 20px;
+}
+.formEle input {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 5px;
+}
+.formEle button {
+  width: 100px;
+  height: 30px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.formEle button:hover {
+  background-color: white;
+  color: darkgreen;
+}
